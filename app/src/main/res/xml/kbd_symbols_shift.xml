@@ -125,9 +125,15 @@
         android:rowEdgeFlags="bottom"
     >
         <Key
+            android:keyLabel="Ctrl"
+            android:codes="@integer/key_ctrl_left"
+            android:isSticky="true"
+            android:keyWidth="15%p"
+            android:isModifier="true" />
+        <Key
             android:codes="@integer/key_symbol"
             android:keyLabel="@string/label_alpha_key"
-            android:keyWidth="20%p"
+            android:keyWidth="15%p"
             android:isModifier="true"
             android:keyEdgeFlags="left" />
         <Key
@@ -137,11 +143,16 @@
             android:codes="@integer/key_space"
             android:keyIcon="@drawable/sym_keyboard_space"
             android:iconPreview="@drawable/sym_keyboard_feedback_space"
-            android:keyWidth="40%p"
+            android:keyWidth="20%p"
             android:isModifier="true" />
         <Key
             android:keyLabel="…"
             android:isModifier="true" />
+        <Key
+            android:codes="@integer/key_dpad_center"
+            android:isModifier="true"
+            android:isCursor="true"
+            android:keyLabel="&#x25cb;" />
         <Key
             android:codes="@integer/key_return"
             android:keyIcon="@drawable/sym_keyboard_return"
@@ -154,6 +165,12 @@
         android:keyboardMode="@+id/mode_symbols_with_settings_key"
         android:rowEdgeFlags="bottom"
     >
+        <Key
+            android:keyLabel="Ctrl"
+            android:codes="@integer/key_ctrl_left"
+            android:isSticky="true"
+            android:keyWidth="15%p"
+            android:isModifier="true" />
         <Key
             android:codes="@integer/key_symbol"
             android:keyLabel="@string/label_alpha_key"
@@ -172,7 +189,7 @@
             android:codes="@integer/key_space"
             android:keyIcon="@drawable/sym_keyboard_space"
             android:iconPreview="@drawable/sym_keyboard_feedback_space"
-            android:keyWidth="30%p"
+            android:keyWidth="20%p"
             android:isModifier="true" />
         <Key
             android:keyLabel="…"
@@ -181,7 +198,7 @@
             android:codes="@integer/key_return"
             android:keyIcon="@drawable/sym_keyboard_return"
             android:iconPreview="@drawable/sym_keyboard_feedback_return"
-            android:keyWidth="25%p"
+            android:keyWidth="20%p"
             android:isModifier="true"
             android:keyEdgeFlags="right" />
     </Row>

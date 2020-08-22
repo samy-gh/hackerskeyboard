@@ -309,7 +309,7 @@ public class LatinKeyboard extends Keyboard {
                 if (mVoiceEnabled && mHasVoiceButton) {
                     setMicF1Key(mF1Key);
                 } else {
-                    setNonMicF1Key(mF1Key, ",", R.xml.popup_comma);
+                    setNonMicF1Key(mF1Key, "/", R.xml.popup_comma);
                 }
             }
         } else if (mIsAlphaFullKeyboard) {
@@ -324,7 +324,7 @@ public class LatinKeyboard extends Keyboard {
             if (mVoiceEnabled && mHasVoiceButton) {
                 setMicF1Key(mF1Key);
             } else {
-                setNonMicF1Key(mF1Key, ",", R.xml.popup_comma);
+                setNonMicF1Key(mF1Key, "/", R.xml.popup_comma);
             }
         }
     }
